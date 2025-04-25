@@ -5,3 +5,4 @@ import time
 import threading
 import random
 
+DATA_FILE = "equities.json"
