@@ -6,3 +6,4 @@ class TradeBotGUI:
         self.root = root
         self.root.title("Trade Bot")
         self.equities = self.load_equities()
+        self.system_running = False
