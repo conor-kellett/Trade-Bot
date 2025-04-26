@@ -16,4 +16,10 @@ class TradeBotGUI:
         self.symbol_entry = tk.Entry(self.form_frame)
         self.symbol_entry.grid(row=0, column=1)
 
-        tk.Label(self.form_frame, text="Levels:").grid(row=1, column=0)
+        tk.Label(self.form_frame, text="Levels:").grid(row=0, column=2)
+        self.symbol_entry = tk.Entry(self.form_frame)
+        self.symbol_entry.grid(row=1, column=3)
+
+        tk.Label(self.form_frame, text="Drawdown%").grid(row=0, column=4)
+        self.symbol_entry = tk.Entry(self.form_frame)
+        self.symbol_entry.grid(row=2, column=1)

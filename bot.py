@@ -4,6 +4,7 @@ import json
 import time
 import threading
 import random
+from TradingBotGUI import TradeBotGUI 
 
 DATA_FILE = "equities.json"
 
@@ -14,4 +15,6 @@ def fetch_mock_api(symbol):
 
 def mock_chatgpt_response(message):
     return f"Mock response to: {message}"
+
+
 
